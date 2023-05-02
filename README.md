@@ -4,7 +4,8 @@
 ### the file structure is similar to react, the main.rs is for the renderer, the App.rs is where you write your app code. The tailwind-string parser is already included in the src (tailwindparser.rs). example code is also provided.
 
 ## DEPENDENCIES:
-- rust language
+- rust language (install via rustup: https://www.rust-lang.org/)
+- node and npm (install according to your os: https://nodejs.org/en)
 - trunk (install via `cargo install trunk`)
 - wasm target (install via `rustup target add wasm32-unknown-unknown`)
 
